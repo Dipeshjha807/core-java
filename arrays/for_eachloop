@@ -1,0 +1,9 @@
+public class for_eachloop {
+    public static void main(String[] args) {
+        int arr[]={12,23,4,56,78,998,};
+        for (int i:arr)
+        {
+            System.out.println(i);
+        }
+    }
+}
