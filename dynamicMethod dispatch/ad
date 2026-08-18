@@ -1,0 +1,17 @@
+class ad {
+    public void show() {
+        System.out.println("in A show ");
+    }
+}
+
+public class anonomus_inner {
+    public static void main(String[] args) {
+        ad obj = new ad() {
+public void show() {
+        System.out.println("in new show ");
+    }
+        };
+        obj.show();
+    }
+
+}
